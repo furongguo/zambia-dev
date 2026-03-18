@@ -23,6 +23,30 @@ uv sync
 
 ## Project Structure
 
+The project is organized into separate directories for data, figures, and analysis to keep the workflow clear and reproducible. 
+Files are structured by topic, and the same naming convention is used across folders to maintain consistency. 
+You can follow this structure when adding new content or adjust file paths as needed, as long as the data source remains consistent.
+
+```text
+.
+├── data/
+│   ├── LIC_*
+│   ├── Zambia_*
+├── docs/
+├── figures/
+│   └── Zambia/
+│       ├── capital_accum/
+│       ├── demographic/
+│       ├── eco_performance/
+│       ├── geographic/
+│       ├── gov_role/
+│       ├── human_capital/
+│       ├── inequality/
+├── notebooks/
+└── src/
+```
+The description of each directory is as follows:
+
 | Directory    | Description        |
 |--------------|--------------------|
 | `data/`      | raw datasets       |
